@@ -10,7 +10,7 @@ set -e
 source $ROOT/.anaconda3/bin/activate
 conda deactivate
 
-source /opt/ros/noetic/setup.bash
+source /opt/ros/melodic/setup.bash
 
 set -x
 
