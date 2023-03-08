@@ -7,7 +7,7 @@ CATKIN_WS=$ROOT/ros
 
 set -e
 
-source /opt/ros/noetic/setup.bash
+source /opt/ros/melodic/setup.bash
 
 set -x
 
