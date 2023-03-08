@@ -19,7 +19,7 @@ pip install fcn
 
 { set +x; } 2>/dev/null
 
-source /opt/ros/noetic/setup.bash
+source /opt/ros/melodic/setup.bash
 
 set -x
 
