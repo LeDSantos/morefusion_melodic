@@ -7,8 +7,8 @@ CATKIN_WS=$ROOT/ros
 
 set -e
 
-# source $ROOT/.anaconda3/bin/activate
-# conda deactivate
+source $ROOT/.anaconda3/bin/activate
+conda deactivate
 
 source /opt/ros/melodic/setup.bash
 
