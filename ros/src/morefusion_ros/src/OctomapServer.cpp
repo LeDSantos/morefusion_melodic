@@ -202,7 +202,9 @@ void OctomapServer::render(
   depth.setTo(NAN);
   label_ins_rend.setTo(-2);
   #pragma omp parallel for
-  for (int instance_id : instance_ids) {
+  for each(int instance_id in instance_ids) {
+  ///fonte: https://www.w3schools.com/cpp/cpp_for_loop.asp e https://stackoverflow.com/questions/20531335/compilation-error-with-for-each-loop-in-c-vs2010
+  ///for (int instance_id : instance_ids) {
     if (instance_id == -1) {
       // skip background objects
       continue;
