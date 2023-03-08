@@ -7,7 +7,7 @@ CATKIN_WS=$ROOT/ros
 
 set -e
 
-# source $ROOT/.anaconda3/bin/activate
+source $ROOT/.anaconda3/bin/activate
 
 set -x
 
